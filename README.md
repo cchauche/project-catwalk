@@ -1,6 +1,7 @@
-# SPHINX
+# [SPHINX](http://3.131.151.234/)
 
 ![Sphinx Title Image](./readme_images/title-image.png)
+**[Site Deployed on AWS EC2](http://3.131.151.234/)**
 
 Working from a detailed business requirement document and an accompanying wireframe we were tasked with creating a functioning product page for an e-commerce site. This project was created in a week with a 4 person development team. Each team member took on one of the four widgets that make up the webpage. The project uses Node.js, Express.js and React.
 
