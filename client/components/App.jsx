@@ -64,13 +64,13 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    let productId = this.props.location.pathname.slice(1) || 11001;
+    let productId = this.props.location.pathname.slice(1) || 11012;
     this.getNewProduct(productId);
   }
 
   componentDidUpdate(prevProps) {
     if (this.props.location.pathname !== prevProps.location.pathname) {
-      let productId = this.props.location.pathname.slice(1) || 11001;
+      let productId = this.props.location.pathname.slice(1) || 11012;
       this.getNewProduct(productId);
     }
   }
@@ -108,7 +108,7 @@ class App extends React.Component {
             reviewAverage={this.state.reviewAverage}
             yourOutfit={this.state.yourOutfit}
           />
-          <RelatedProducts
+          {/* <RelatedProducts
             product={this.state.product}
             reviewMetaData={this.state.reviewMetaData}
             reviewAverage={this.state.reviewAverage}
@@ -117,7 +117,7 @@ class App extends React.Component {
             addToOutfit={this.addToOutfit}
             removeFromOutfit={this.removeFromOutfit}
             styles={this.state.styles}
-          />
+          /> */}
           <QnAs
             product={this.state.product}
           />
